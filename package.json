@@ -1,0 +1,26 @@
+{
+  "name": "curso-sass",
+  "version": "1.0.0",
+  "description": "Learn advanced CSS and SASS",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoncoutinho1/curso-sass.git"
+  },
+  "keywords": [
+    "CSS",
+    "SASS"
+  ],
+  "author": "Coutinho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leoncoutinho1/curso-sass/issues"
+  },
+  "homepage": "https://github.com/leoncoutinho1/curso-sass#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
