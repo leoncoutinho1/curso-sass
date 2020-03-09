@@ -55,6 +55,13 @@ body {
     text-transform: uppercase;
 }
 
+.feature-box__icon {
+    display: inline-block;
+    background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
 .paragraph {
     font-size: 1.6rem;
     &:not(:last-child) {
