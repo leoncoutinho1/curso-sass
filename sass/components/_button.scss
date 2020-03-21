@@ -33,7 +33,15 @@
         &::after {
             background-color: $color-white;
         }
+    }
 
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-primary;
+        }
     }
 
     &::after {
@@ -47,7 +55,6 @@
         left: 0;
         z-index: -1;
         transition: all .8s;
-        background-color: $color-white;
     }
 
     &--animated {
